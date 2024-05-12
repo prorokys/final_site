@@ -12,9 +12,9 @@
 
 
 {% block content %}
-	<!-- Контент на странице -->
+	<!-- Контент на сторінці -->
 	<div class="row">
-		<!-- Форма фильтров -->
+		<!-- Форма фільтрів -->
 		<div class="dropdown mb-2">
 			<button class="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
 			        aria-expanded="false">
@@ -69,8 +69,10 @@
 
 
 					<div class="card-body">
-						<a href="../goods/product.html">
+
+						<a href="{% url "catalog:product" product.slug %}">
 							<p class="card-title">{{ product.name }}</p>
+
 						</a>
 						<p class="card-text text-truncate">{{ product.description }}</p>
 						<p class="product_id">ID: {{ product.display_id }}</p>
@@ -96,7 +98,7 @@
 
 
 	</div>
-	<!-- Пагинация -->
+	<!-- Пагінація -->
 	<nav aria-label="Page navigation example">
 		<ul class="pagination justify-content-center my-4">
 			<div class="custom-shadow d-flex">

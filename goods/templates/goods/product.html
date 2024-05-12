@@ -3,43 +3,62 @@
 
 
 {% block content %}
-	<!-- Контент на странице -->
+	<!-- Контент на сторінці -->
 	<div class="container mt-5">
 		<div class="card mb-4 custom-shadow">
 			<div class="row">
-				<!-- Миниатюры -->
+				<!-- Мініатюри -->
 				<div class="col-md-4">
-					<img src="../../static/deps/images/goods/set of tea table and three chairs.jpg"
-					     class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal1">
+
+					{% if product.image %}
+						<img src="{{ product.image.url }}" class="img-thumbnail" data-bs-toggle="modal"
+						     data-bs-target="#imageModal1"
+						     alt="{{ product.name }}">
+					{% else %}
+						<img src="{% static "deps/images/Not found image.png" %}" class="img-thumbnail"
+						     data-bs-toggle="modal" data-bs-target="#imageModal1"
+						     alt="{{ product.name }}">
+					{% endif %}
+
+					{#					<img src="{{ product.image.url }}"#}
+					{#					     class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal1" alt="...">#}
 				</div>
 				<div class="col-md-4 ">
-					<p class="product_id mt-3">id: 002654</p>
+					<p class="product_id mt-3">ID: {{ product.display_id }}</p>
 				</div>
-				<!-- Увеличить изображение в модальном окне -->
+				<!-- Збільшити зображення у модальному вікні -->
 				<div class="modal fade" id="imageModal1" tabindex="-1"
 				     aria-labelledby="imageModal1Label" aria-hidden="true">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="imageModal1Label">Изображение 1</h5>
+								<h5 class="modal-title" id="imageModal1Label">{{ product.name }}</h5>
 								<button type="button" class="btn-close" data-bs-dismiss="modal"
-								        aria-label="Закрыть"></button>
+								        aria-label="Закрити"></button>
 							</div>
 							<div class="modal-body">
-								<img src="../../static/deps/images/goods/set of tea table and three chairs.jpg"
-								     class="img-fluid" alt="Изображение 1">
+
+								{% if product.image %}
+									<img src="{{ product.image.url }}" class="img-fluid"
+									     alt="{{ product.name }}">
+								{% else %}
+									<img src="{% static "deps/images/Not found image.png" %}" class="img-fluid"
+									     alt="{{ product.name }}">
+								{% endif %}
+
+								{#								<img src="{{ product.image.url }}"#}
+								{#								     class="img-fluid" alt="...">#}
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Описание товара -->
+			<!-- Опис товару -->
 			<div class="card-body">
-				<p class="card-text">Цена: <strong>150.00 $</strong></p>
-				<h5 class="card-title">Чайный столик и три стула</h5>
-				<p class="card-text">Комплект из трёх стульев и дизайнерский столик для гостинной
-					комнаты.</p>
-				<a href="#" class="btn btn-dark add-to-cart">Добавить в корзину</a>
+				<p class="card-text">Ціна: <strong>{{ product.sell_price }} гр</strong></p>
+				<h5 class="card-title">{{ product.name }}</h5>
+				<p class="card-text">{{ product.description }}.</p>
+				<a href="#" class="btn btn-dark add-to-cart">Добавити в корзину</a>
 			</div>
 		</div>
 	</div>
