@@ -1,0 +1,226 @@
+[
+  {
+	"model": "goods.products",
+	"pk": 1,
+	"fields": {
+	  "name": "Бітумна черепиця MATIZOL® PATIO сота червоний відтінений 3 кв.м",
+	  "slug": "bitumna-cherepicya-matizol-patio-sota-chervonij-vidtinenij-3-kvm",
+	  "description": "Бренд MATIZOL®\r\nТип одношарова\r\nМалюнок сота\r\nПлоща накриття 1 упаковки, кв.м 3\r\nТип модифікування окислена\r\nУпаковок на піддоні, шт. 42\r\nВид покриття гранулят базальту\r\nСерія PATIO\r\nКолір червоний відтінений\r\nВага, кг 20.11\r\nКраїна-виробник Польща",
+	  "image": "",
+	  "price": "1005.00",
+	  "discount": "0.00",
+	  "quantity": 33,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 2,
+	"fields": {
+	  "name": "Бітумна черепиця гнучка TEGOLA ECO ROOF HEXAGONAL MIXED RED",
+	  "slug": "bitumna-cherepicya-gnuchka-tegola-eco-roof-hexagonal-mixed-red",
+	  "description": "Бренд ECO ROOF\r\nТип одношарова\r\nМалюнок сота\r\nПлоща накриття 1 упаковки, кв.м 2,3​\r\nТип модифікування окислена\r\nУпаковок на піддоні, шт. 80\r\nДодаткові характеристики гарантія: від виробника 20 років/кількість в упаковці: 2,3 м2 (16 шт)\r\nВид покриття гранулят базальту\r\nСерія ECO ROOF\r\nКолір червоний мікс\r\nКраїна-виробник Італія\r\nКолекція HEXAGONAL",
+	  "image": "",
+	  "price": "1200.00",
+	  "discount": "0.00",
+	  "quantity": 44,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 3,
+	"fields": {
+	  "name": "Бітумна черепиця гнучка Aquaizol Мозаїка коричнева",
+	  "slug": "bitumna-cherepicya-gnuchka-aquaizol-mozayika-korichneva",
+	  "description": "Бренд Aquaizol \r\nТип одношарова\r\nМалюнок сота\r\nПлоща накриття 1 упаковки, кв.м 2,3​\r\nТип модифікування окислена\r\nУпаковок на піддоні, шт. 80\r\nДодаткові характеристики гарантія: від виробника 20 років/кількість в упаковці: 2,3 м2 (16 шт)\r\nВид покриття гранулят базальту\r\nСерія ECO ROOF\r\nКолір червоний мікс\r\nКраїна-виробник Італія\r\nКолекція HEXAGONAL",
+	  "image": "",
+	  "price": "1250.00",
+	  "discount": "0.00",
+	  "quantity": 11,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 4,
+	"fields": {
+	  "name": "Бітумна черепиця TEGOLA ECO ROOF HEXAGONAL Mixed BROWN",
+	  "slug": "bitumna-cherepicya-tegola-eco-roof-hexagonal-mixed-brown",
+	  "description": "Бренд TEGOLA \r\nТип одношарова\r\nМалюнок сота\r\nПлоща накриття 1 упаковки, кв.м 2,3​\r\nТип модифікування окислена\r\nУпаковок на піддоні, шт. 80\r\nДодаткові характеристики гарантія: від виробника 20 років/кількість в упаковці: 2,3 м2 (16 шт)\r\nВид покриття гранулят базальту\r\nСерія ECO ROOF\r\nКолір червоний мікс\r\nКраїна-виробник Італія\r\nКолекція HEXAGONAL",
+	  "image": "",
+	  "price": "1300.00",
+	  "discount": "0.00",
+	  "quantity": 23,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 5,
+	"fields": {
+	  "name": "Бітумна черепиця IKO Number One 3Tab Tile Red (10) 3,0 кв.м",
+	  "slug": "bitumna-cherepicya-iko-number-one-3tab-tile-red-10-30-kvm",
+	  "description": "Бренд IKO \r\nТип одношарова\r\nМалюнок сота\r\nПлоща накриття 1 упаковки, кв.м 2,3​\r\nТип модифікування окислена\r\nУпаковок на піддоні, шт. 80\r\nДодаткові характеристики гарантія: від виробника 20 років/кількість в упаковці: 2,3 м2 (16 шт)\r\nВид покриття гранулят базальту\r\nСерія ECO ROOF\r\nКолір червоний мікс\r\nКраїна-виробник Італія\r\nКолекція HEXAGONAL",
+	  "image": "",
+	  "price": "1320.00",
+	  "discount": "0.00",
+	  "quantity": 34,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 6,
+	"fields": {
+	  "name": "Металочерепиця PSM PROFILE PSM 1180x2250 мм RAL 6005 зелена 0,45 мм",
+	  "slug": "metalocherepicya-psm-profile-psm-1180x2250-mm-ral-6005-zelena-045-mm",
+	  "description": "Бренд PSM PROFILE\r\nТовщина металу, мм 0,45\r\nТип хвилі Монтеррей\r\nТип покриття глянець\r\nКорисна площа листа, кв.м 2.365\r\nЦинкування, г/кв.м 140",
+	  "image": "",
+	  "price": "979.00",
+	  "discount": "0.00",
+	  "quantity": 55,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 7,
+	"fields": {
+	  "name": "Металочерепиця PSM 1180x2250 мм RAL 6005 зелена",
+	  "slug": "metalocherepicya-psm-1180x2250-mm-ral-6005-zelena",
+	  "description": "Бренд PSM PROFILE\r\nТовщина металу, мм 0,45\r\nТип хвилі Монтеррей\r\nТип покриття глянець\r\nКорисна площа листа, кв.м 2.365\r\nЦинкування, г/кв.м 140",
+	  "image": "",
+	  "price": "870.00",
+	  "discount": "0.00",
+	  "quantity": 56,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 8,
+	"fields": {
+	  "name": "Металочерепиця PSM 1180x1200 мм RAL 3005 бордова",
+	  "slug": "metalocherepicya-psm-1180x1200-mm-ral-3005-bordova",
+	  "description": "Бренд PSM PROFILE\r\nТовщина металу, мм 0,45\r\nТип хвилі Монтеррей\r\nТип покриття глянець\r\nКорисна площа листа, кв.м 2.365\r\nЦинкування, г/кв.м 140",
+	  "image": "",
+	  "price": "780.00",
+	  "discount": "0.00",
+	  "quantity": 12,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 9,
+	"fields": {
+	  "name": "Металочерепиця Tile Модерн 1200x720 мм RAL 8019 коричнева",
+	  "slug": "metalocherepicya-tile-modern-1200x720-mm-ral-8019-korichneva",
+	  "description": "Бренд Tile\r\nТовщина металу, мм 0,48\r\nТип хвилі Модерн\r\nТип покриття мат\r\nКорисна площа листа, кв.м 0.8244\r\nЦинкування, г/кв.м 140\r\nВага на 1 кв.м, кг/кв.м 4",
+	  "image": "",
+	  "price": "550.00",
+	  "discount": "0.00",
+	  "quantity": 21,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 10,
+	"fields": {
+	  "name": "Металочерепиця RoofOK 1190х2125 мм зелена 6005",
+	  "slug": "metalocherepicya-roofok-1190h2125-mm-zelena-6005",
+	  "description": "Бренд RoofOK \r\nТовщина металу, мм 0,48\r\nТип хвилі Модерн\r\nТип покриття мат\r\nКорисна площа листа, кв.м 0.8244\r\nЦинкування, г/кв.м 140\r\nВага на 1 кв.м, кг/кв.м 4",
+	  "image": "",
+	  "price": "660.00",
+	  "discount": "0.00",
+	  "quantity": 32,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 11,
+	"fields": {
+	  "name": "Полікарбонат монолітний SOTON Solid Pro 3 мм 2000х1025 мм бронзовий",
+	  "slug": "polikarbonat-monolitnij-soton-solid-pro-3-mm-2000h1025-mm-bronzovij",
+	  "description": "Полікарбонат - матеріал з високими світлопропускними і термоізоляційними параметрами, що застосовується для облаштування різного роду споруд (найчастіше - теплиць). Конструкції з полікарбонату відрізняються стійкістю до ударів, вогнестійкістю, нетоксичність.",
+	  "image": "",
+	  "price": "2800.00",
+	  "discount": "0.00",
+	  "quantity": 13,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 12,
+	"fields": {
+	  "name": "Полікарбонат монолітний SOTON Solid Pro 4 мм 2000х1025 мм прозорий",
+	  "slug": "polikarbonat-monolitnij-soton-solid-pro-4-mm-2000h1025-mm-prozorij",
+	  "description": "Полікарбонат Soton Solidpro Polycarbonate - матеріал з високими світлопропускними і термоізоляційними параметрами, що застосовується для облаштування різного роду споруд (найчастіше - теплиць). Конструкції з полікарбонату відрізняються стійкістю до ударів, вогнестійкістю, нетоксичність.\r\n\r\nДовжина - 2000 мм\r\nТовщина - 4 мм\r\nШирина - 1025 мм",
+	  "image": "",
+	  "price": "3600.00",
+	  "discount": "0.00",
+	  "quantity": 25,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 13,
+	"fields": {
+	  "name": "З`єднувальний Н-профіль 8мм x 3м бронзовий",
+	  "slug": "zyednuvalnij-n-profil-8mm-x-3m-bronzovij",
+	  "description": "Профіль з'єднувальний Н-8 3000 мм застосовується для з'єднання між собою листів полікарбонату.\r\nВідрізняється підвищеною міцністю і гнучкістю.\r\nСполучна планка виготовлена з того ж матеріалу, що і сам лист, довжина планки 3 метра, товщина підбирається під товщину полікарбонатного листа.\r\nДовжина: 3000 мм.\r\nТовщина: 8 мм.\r\nКолір: бронзовий.",
+	  "image": "",
+	  "price": "150.00",
+	  "discount": "0.00",
+	  "quantity": 22,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 14,
+	"fields": {
+	  "name": "Руберойд TECHNONICOL Полібуд ЕКО ЕКП 3,5 сланець сірий 9 кв. м",
+	  "slug": "ruberojd-technonicol-polibud-eko-ekp-35-slanec-sirij-9-kv-m",
+	  "description": "Руберойд Technonicol Полібуд призначений для влаштування верхнього шару м'якої покрівлі. За рахунок наявності полімерного покриття він забезпечує надійний захист покрівлі.",
+	  "image": "",
+	  "price": "920.00",
+	  "discount": "0.00",
+	  "quantity": 100,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 15,
+	"fields": {
+	  "name": "Руберойд Ореол-1 пластобіт ЕКП-4,5 10 кв. м",
+	  "slug": "ruberojd-oreol-1-plastobit-ekp-45-10-kv-m",
+	  "description": "",
+	  "image": "",
+	  "price": "1000.00",
+	  "discount": "0.00",
+	  "quantity": 50,
+	  "category": 6
+	}
+  },
+  {
+	"model": "goods.products",
+	"pk": 16,
+	"fields": {
+	  "name": "Руберойд TECHNONICOL Бікроеласт ЕПП 2,5 15 кв. м",
+	  "slug": "ruberojd-technonicol-bikroelast-epp-25-15-kv-m",
+	  "description": "Бікроеласт ЕПП 2.5 являє собою модифікований бітумний покрівельний і гідроізоляційний матеріал.\r\n\r\nБікроеласт ЕПП 2.5 призначений для влаштування покрівлі з малим ухилом і гідроізоляції фундаментів будівель і споруд.\r\n\r\nБікроеласт складається з міцної негниючої органічної основи (поліестер).\r\n\r\nЗ двох сторін на Бікроеласт ЕПП 2.5 нанесене високоякісне модифіковане бітумне в'яжуче.\r\n\r\nБікроеласт ЕПП 2.5 призначений для влаштування нижнього шару покрівельного килима будівель і споруд та гідроізоляції будівельних конструкцій.",
+	  "image": "",
+	  "price": "1700.00",
+	  "discount": "0.00",
+	  "quantity": 25,
+	  "category": 6
+	}
+  }
+]
