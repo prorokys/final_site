@@ -44,6 +44,7 @@ class Products(models.Model):
         db_table = "product"
         verbose_name = "продукт"
         verbose_name_plural = "продукти"
+        ordering = ("id",)
 
     """
     Returns a string representation of the object.
