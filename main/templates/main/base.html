@@ -68,14 +68,16 @@
 						</ul>
 					</li>
 				</ul>
-				<form class="d-flex" role="search">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<form class="d-flex" role="search" method="get" action="{% url "catalog:search" %}">
+					<input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
 					<button class="btn btn-outline-success text-white" type="submit">Поїск</button>
 				</form>
 			</div>
 		</div>
 	</nav>
 </header>
+
+
 <section>
 	<div class="container">
 		<!-- Каталог та кошик з фіксованим розташуванням на сторінці -->
