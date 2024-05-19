@@ -11,8 +11,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="{% static "deps/css/bootstrap/bootstrap.min.css" %}">
 	<link rel="stylesheet" href="{% static "deps/css/my_css.css" %}">
+
 	<!-- Стиль footer-a для головної сторінки -->
 	{% block footer_css %}{% endblock %}
+
 	<!-- Favicons for different platforms -->
 	<link rel="apple-touch-icon" sizes="180x180" href="{% static "deps/favicon/apple-touch-icon.png" %}">
 	<link rel="icon" type="image/png" sizes="32x32" href="{% static "deps/favicon/favicon-32x32.png" %}">
@@ -48,7 +50,7 @@
 						<a class="nav-link  text-white" href="carts/cart.html">Корзина</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link  text-white" href="users/login.html">Увійти</a>
+						<a class="nav-link  text-white" href="{% url "user:login" %}">Увійти</a>
 					</li>
 					<li class="nav-item dropdown ">
 						<a class="nav-link dropdown-toggle text-white" href="#" role="button"
@@ -57,14 +59,14 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item  text-white" href="carts/cart.html">Корзина</a></li>
-							<li><a class="dropdown-item  text-white" href="users/profile.html">Особистий кабінет</a>
+							<li><a class="dropdown-item  text-white" href="{% url "user:profile" %}">Особистий кабінет</a>
 							</li>
 							<li><a class="dropdown-item  text-white" href="{% url "admin:index" %}">Адмін панель</a>
 							</li>
 							<li>
 								<hr class="dropdown-divider">
 							</li>
-							<li><a class="dropdown-item  text-white" href="#">Вийти</a></li>
+							<li><a class="dropdown-item  text-white" href="{% url "user:logout" %}">Вийти</a></li>
 						</ul>
 					</li>
 				</ul>
