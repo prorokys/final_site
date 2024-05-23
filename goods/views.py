@@ -1,3 +1,5 @@
+from pprint import pprint
+
 from django.shortcuts import get_list_or_404, render
 from django.core.paginator import Paginator
 from goods.models import Products
@@ -15,6 +17,7 @@ def catalog(request, category_slug=None):
 
     if category_slug == "all":
         goods = Products.objects.all()
+
     elif query:
         goods = q_search(query)
     else:

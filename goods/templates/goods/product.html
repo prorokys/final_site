@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
+
+{% block modal_cart %}
+	{% include "includes/cart_button.html" %}
+{% endblock %}
+
+
 {% block footer_css %}
 	<link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
 {% endblock %}
@@ -23,8 +29,6 @@
 						     alt="{{ product.name }}">
 					{% endif %}
 
-					{#					<img src="{{ product.image.url }}"#}
-					{#					     class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal1" alt="...">#}
 				</div>
 				<div class="col-md-4 ">
 					<p class="product_id mt-3">ID: {{ product.display_id }}</p>
@@ -61,17 +65,17 @@
 				<p class="card-text">Ціна: <strong>{{ product.sell_price }} гр</strong></p>
 				<h5 class="card-title">{{ product.name }}</h5>
 				<p class="card-text">{{ product.description }}.</p>
-				<a href="#" class="btn btn-dark add-to-cart">Добавити в корзину</a>
+				<a href="{% url "cart:cart_add" product.slug %}" class="btn btn-dark add-to-cart">Добавити в кошик</a>
 			</div>
 		</div>
 	</div>
 {% endblock %}
 
 
-{% block footer %}
-	<footer class="py-4 bg-dark">
-		<div class="container">
-			<p class="m-0 text-center text-white">Copyright &copy; ukrkaban 2024</p>
-		</div>
-	</footer>
-{% endblock %}
+{#{% block footer %}#}
+{#	<footer class="py-4 bg-dark">#}
+{#		<div class="container">#}
+{#			<p class="m-0 text-center text-white">Copyright &copy; ukrkaban 2024</p>#}
+{#		</div>#}
+{#	</footer>#}
+{#{% endblock %}#}

@@ -1,6 +1,6 @@
-// Когда html документ готов (прорисован)
+// Коли html документ готовий (промальований)
 $(document).ready(function () {
-    // Берем из разметки элемент по id - оповещения от django
+    // Беремо з розмітки елемент по id - оповіщення від django
     var notification = $('#notification');
     // И через 7 сек. убираем
     if (notification.length > 0) {
@@ -9,22 +9,22 @@ $(document).ready(function () {
         }, 7000);
     }
 
-    // При клике по значку корзины открываем всплывающее(модальное) окно
+    // При натисканні на значок кошика відкриваємо спливаюче(модальне) вікно
     $('#modalButton').click(function () {
         $('#exampleModal').appendTo('body');
 
         $('#exampleModal').modal('show');
     });
 
-    // Собыите клик по кнопке закрыть окна корзины
+    // Клік по кнопці закрити вікна кошика
     $('#exampleModal .btn-close').click(function () {
         $('#exampleModal').modal('hide');
     });
 
-    // Обработчик события радиокнопки выбора способа доставки
-    $("input[name='requires_delivery']").change(function() {
+    // Обробник події радіокнопки вибору способу доставки
+    $("input[name='requires_delivery']").change(function () {
         var selectedValue = $(this).val();
-        // Скрываем или отображаем input ввода адреса доставки
+        // Приховуємо або відображаємо input введення адреси доставки
         if (selectedValue === "1") {
             $("#deliveryAddressField").show();
         } else {

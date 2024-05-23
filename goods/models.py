@@ -12,10 +12,6 @@ class Categories(models.Model):
         verbose_name = "категорію"
         verbose_name_plural = "категорії"
 
-    """
-    Returns a string representation of the object.
-    """
-
     def __str__(self):
         return self.name
 
@@ -46,17 +42,13 @@ class Products(models.Model):
         verbose_name_plural = "продукти"
         ordering = ("id",)
 
-    """
-    Returns a string representation of the object.
-    """
-
     def __str__(self):
-        return f"{self.name} Кількість- {self.quantity}"
+        return f"{self.name} Кількість- {self.quantity}, {self.image}"
 
     def display_id(self):
         return f"{self.id:05}"
 
     def sell_price(self):
         if self.discount:
-            return round(self.price - (self.price * self.discount / 100), 2)
+            return round(self.price - self.price * self.discount / 100, 2)
         return self.price
