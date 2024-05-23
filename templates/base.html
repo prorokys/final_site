@@ -48,7 +48,10 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link  text-white" href="{% url "user:users_cart" %}">Кошик</a>
+						<a class="nav-link  text-white" href="{% url "user:users_cart" %}"
+						   class="btn btn-dark add-to-cart">
+							{% csrf_token %}
+							Кошик</a>
 					</li>
 					
 					{% if not user.is_authenticated %}
@@ -63,7 +66,8 @@
 								Мій профіль
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item  text-white" href="carts/cart.html">Кошик</a></li>
+								<li><a class="dropdown-item  text-white" href="{% url "user:users_cart" %}"
+								>Кошик</a></li>
 								<li><a class="dropdown-item  text-white" href="{% url "user:profile" %}">Особистий
 									кабінет</a>
 								</li>
@@ -151,7 +155,7 @@
 
 
 <script src="{% static "deps/js/jquery/jquery-3.7.0.min.js" %}"></script>
-<script src="{% static "deps/js/jquery-events.js" %}"></script>
+{#<script src="{% static "deps/js/jquery-events.js" %}"></script>#}
 <script src="{% static "deps/js/jquery-ajax.js" %}"></script>
 <script src="{% static "deps/js/bootstrap/bootstrap.bundle.min.js" %}"></script>
 </body>
