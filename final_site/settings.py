@@ -10,7 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+# from dotenv import load_dotenv
+
+
 from pathlib import Path
+
+
+# load_dotenv()  # take environment variables from .env.
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,19 +88,23 @@ WSGI_APPLICATION = "final_site.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    # "default": {
-    #     "ENGINE": "django.db.backends.sqlite3",
-    #     "NAME": BASE_DIR / "db.sqlite3",
-    # }
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "home",
-        "USER": "home",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "ukrkaban$my_data_base",
+        "USER": "ukrkaban",
         "PASSWORD": "Piona1986$",
-        "HOST": "Localhost",
-        "PORT": "5432",
+        "HOST": "ukrkaban.mysql.pythonanywhere-services.com",
     }
 }
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": "home",
+#         "USER": "home",
+#         "PASSWORD": "Piona1986$",
+#         "HOST": "Localhost",
+#         "PORT": "5432",
+#     }
+# }
 
 
 # Password validation
