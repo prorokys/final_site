@@ -2,8 +2,11 @@ asgiref==3.8.1
 asttokens==2.4.1
 backcall==0.2.0
 backports.zoneinfo==0.2.1
+beautifulsoup4==4.12.3
 black==24.4.2
 blinker==1.8.2
+certifi==2024.2.2
+charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 decorator==5.1.1
@@ -12,6 +15,7 @@ django-debug-toolbar==4.3.0
 executing==2.0.1
 flake8==5.0.4
 Flask==3.0.3
+idna==3.7
 importlib_metadata==7.1.0
 itsdangerous==2.2.0
 jedi==0.19.1
@@ -21,6 +25,7 @@ matplotlib-inline==0.1.7
 mccabe==0.7.0
 MyApplication==0.1.0
 mypy-extensions==1.0.0
+mysqlclient==2.2.4
 packaging==24.0
 parso==0.8.4
 pathspec==0.12.1
@@ -34,13 +39,17 @@ pure-eval==0.2.2
 pycodestyle==2.9.1
 pyflakes==2.5.0
 Pygments==2.18.0
+python-dotenv==1.0.1
+requests==2.32.1
 six==1.16.0
+soupsieve==2.5
 sqlparse==0.5.0
 stack-data==0.6.3
 tomli==2.0.1
 traitlets==5.14.3
 typing_extensions==4.11.0
 tzdata==2024.1
+urllib3==2.2.1
 wcwidth==0.2.13
 Werkzeug==3.0.3
 zipp==3.18.1
