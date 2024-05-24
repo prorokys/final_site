@@ -196,7 +196,7 @@ $(document).ready(function () {
     });
 
     // Обробник події радіокнопки вибору способу доставки
-    $("input[name='requires_delivery']").change(function () {
+    $("input[name='required_delivery']").change(function () {
         var selectedValue = $(this).val();
         // Приховуємо або відображаємо input введення адреси доставки
         if (selectedValue === "1") {
